@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "maplibre-gl-native-distribution",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/maptiler/maplibre-gl-native-distribution",
+      "state" : {
+        "branch" : "main",
+        "revision" : "423cf2c3e27fc5e1ef30f31b7e9b0d4e11e6d1cd"
+      }
+    },
+    {
+      "identity" : "unl-maps-sdk-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/u-n-l/unl-maps-sdk-ios.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "2c9afffb0716094a7f2dee4f4b32dd807d47369a"
+      }
+    }
+  ],
+  "version" : 2
+}
