@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">UNL_Project</string>
+    <string name="app_name">UNL_Sample</string>
+    <string name="api_key">TyWCPuvtqc4xAE8jGZX6IWKnPRpWKQWf</string>
+    <string name="vpm_id">b96e28f6-a262-42e9-a337-a54ea90090f8</string>
 </resources>

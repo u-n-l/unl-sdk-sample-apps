@@ -8,7 +8,8 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        UnlMap(applicationContext)
+        UnlMap(applicationContext,getString(R.string.api_key),getString(R.string.vpm_id))
         setContentView(R.layout.activity_main)
+
     }
 }

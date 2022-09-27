@@ -19,14 +19,7 @@ class UnlMapView @JvmOverloads constructor(
     var mapbox: MapboxMap? = null
 
     init {
-        val interceptor = HttpLoggingInterceptor()
-        interceptor.level = HttpLoggingInterceptor.Level.BODY
-        HttpRequestUtil.setOkHttpClient(
-            OkHttpClient.Builder()
-                .addInterceptor(SigV4Interceptor())
-                .addInterceptor(interceptor)
-                .build()
-        )
+
         this.getMapAsync {
             mapbox = it
             var poly = ArrayList<LatLng>()
