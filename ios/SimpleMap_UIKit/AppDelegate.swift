@@ -1,18 +1,22 @@
 import UIKit
-import Mapbox
+import UNLMapSDK
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    let unlMap = UNLMapSDK()
+    
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        unlMap.configMap(headers: ["x-unl-api-key": "TyWCPuvtqc4xAE8jGZX6IWKnPRpWKQWf",
+                                   "x-unl-vpm-id": "b96e28f6-a262-42e9-a337-a54ea90090f8"])
+        
         // Override point for customization after application launch.
-        let sessionConfig = URLSessionConfiguration.default
-        sessionConfig.httpAdditionalHeaders = ["x-unl-api-key": "TyWCPuvtqc4xAE8jGZX6IWKnPRpWKQWf",
-                                               "x-unl-vpm-id": "b96e28f6-a262-42e9-a337-a54ea90090f8"
-                                               ]
-        MGLNetworkConfiguration.sharedManager.sessionConfiguration = sessionConfig
+//        let sessionConfig = URLSessionConfiguration.default
+//        sessionConfig.httpAdditionalHeaders = ["x-unl-api-key": "TyWCPuvtqc4xAE8jGZX6IWKnPRpWKQWf",
+//                                               "x-unl-vpm-id": "b96e28f6-a262-42e9-a337-a54ea90090f8"
+//                                               ]
+//        MGLNetworkConfiguration.sharedManager.sessionConfiguration = sessionConfig
         return true
     }
 

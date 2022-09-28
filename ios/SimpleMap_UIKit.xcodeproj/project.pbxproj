@@ -7,23 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1594ACCF28B75F1D0090355E /* tiles.json in Resources */ = {isa = PBXBuildFile; fileRef = 1594ACCE28B75F1C0090355E /* tiles.json */; };
-		2A549A4A28C1BB1F0098B44D /* Mapbox in Frameworks */ = {isa = PBXBuildFile; productRef = 2A549A4928C1BB1F0098B44D /* Mapbox */; };
-		2A87F39C28DD879E007051A3 /* UNLMapSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 2A87F39B28DD879E007051A3 /* UNLMapSDK */; };
+		2AF8A0B428E3F6D0009CE6A8 /* UNLMapSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 2AF8A0B328E3F6D0009CE6A8 /* UNLMapSDK */; };
+		2AF8A0B628E3F7EC009CE6A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8A0B528E3F7EC009CE6A8 /* ViewController.swift */; };
 		4BD1E186252BA7EC00864780 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD1E185252BA7EC00864780 /* AppDelegate.swift */; };
 		4BD1E188252BA7EC00864780 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD1E187252BA7EC00864780 /* SceneDelegate.swift */; };
-		4BD1E18A252BA7EC00864780 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD1E189252BA7EC00864780 /* ViewController.swift */; };
 		4BD1E18D252BA7EC00864780 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD1E18B252BA7EC00864780 /* Main.storyboard */; };
 		4BD1E18F252BA7ED00864780 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BD1E18E252BA7ED00864780 /* Assets.xcassets */; };
 		4BD1E192252BA7ED00864780 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD1E190252BA7ED00864780 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1594ACCE28B75F1C0090355E /* tiles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tiles.json; sourceTree = "<group>"; };
+		2AF8A0B528E3F7EC009CE6A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4BD1E182252BA7EC00864780 /* SimpleMap_UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleMap_UIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BD1E185252BA7EC00864780 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BD1E187252BA7EC00864780 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4BD1E189252BA7EC00864780 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4BD1E18C252BA7EC00864780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4BD1E18E252BA7ED00864780 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BD1E191252BA7ED00864780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,8 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A87F39C28DD879E007051A3 /* UNLMapSDK in Frameworks */,
-				2A549A4A28C1BB1F0098B44D /* Mapbox in Frameworks */,
+				2AF8A0B428E3F6D0009CE6A8 /* UNLMapSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,8 +60,7 @@
 			children = (
 				4BD1E185252BA7EC00864780 /* AppDelegate.swift */,
 				4BD1E187252BA7EC00864780 /* SceneDelegate.swift */,
-				4BD1E189252BA7EC00864780 /* ViewController.swift */,
-				1594ACCE28B75F1C0090355E /* tiles.json */,
+				2AF8A0B528E3F7EC009CE6A8 /* ViewController.swift */,
 				4BD1E18B252BA7EC00864780 /* Main.storyboard */,
 				4BD1E18E252BA7ED00864780 /* Assets.xcassets */,
 				4BD1E190252BA7ED00864780 /* LaunchScreen.storyboard */,
@@ -91,8 +86,7 @@
 			);
 			name = SimpleMap_UIKit;
 			packageProductDependencies = (
-				2A549A4928C1BB1F0098B44D /* Mapbox */,
-				2A87F39B28DD879E007051A3 /* UNLMapSDK */,
+				2AF8A0B328E3F6D0009CE6A8 /* UNLMapSDK */,
 			);
 			productName = SimpleMap_UIKit;
 			productReference = 4BD1E182252BA7EC00864780 /* SimpleMap_UIKit.app */;
@@ -122,8 +116,7 @@
 			);
 			mainGroup = 4BD1E179252BA7EC00864780;
 			packageReferences = (
-				2A549A4828C1BB1F0098B44D /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */,
-				2A87F39A28DD879E007051A3 /* XCRemoteSwiftPackageReference "unl-maps-sdk-ios" */,
+				2AF8A0B228E3F6D0009CE6A8 /* XCRemoteSwiftPackageReference "unl-maps-sdk-ios" */,
 			);
 			productRefGroup = 4BD1E183252BA7EC00864780 /* Products */;
 			projectDirPath = "";
@@ -142,7 +135,6 @@
 				4BD1E192252BA7ED00864780 /* LaunchScreen.storyboard in Resources */,
 				4BD1E18F252BA7ED00864780 /* Assets.xcassets in Resources */,
 				4BD1E18D252BA7EC00864780 /* Main.storyboard in Resources */,
-				1594ACCF28B75F1D0090355E /* tiles.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BD1E18A252BA7EC00864780 /* ViewController.swift in Sources */,
+				2AF8A0B628E3F7EC009CE6A8 /* ViewController.swift in Sources */,
 				4BD1E186252BA7EC00864780 /* AppDelegate.swift in Sources */,
 				4BD1E188252BA7EC00864780 /* SceneDelegate.swift in Sources */,
 			);
@@ -361,15 +353,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		2A549A4828C1BB1F0098B44D /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/maptiler/maplibre-gl-native-distribution";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-		2A87F39A28DD879E007051A3 /* XCRemoteSwiftPackageReference "unl-maps-sdk-ios" */ = {
+		2AF8A0B228E3F6D0009CE6A8 /* XCRemoteSwiftPackageReference "unl-maps-sdk-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/u-n-l/unl-maps-sdk-ios.git";
 			requirement = {
@@ -380,14 +364,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		2A549A4928C1BB1F0098B44D /* Mapbox */ = {
+		2AF8A0B328E3F6D0009CE6A8 /* UNLMapSDK */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 2A549A4828C1BB1F0098B44D /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */;
-			productName = Mapbox;
-		};
-		2A87F39B28DD879E007051A3 /* UNLMapSDK */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 2A87F39A28DD879E007051A3 /* XCRemoteSwiftPackageReference "unl-maps-sdk-ios" */;
+			package = 2AF8A0B228E3F6D0009CE6A8 /* XCRemoteSwiftPackageReference "unl-maps-sdk-ios" */;
 			productName = UNLMapSDK;
 		};
 /* End XCSwiftPackageProductDependency section */
