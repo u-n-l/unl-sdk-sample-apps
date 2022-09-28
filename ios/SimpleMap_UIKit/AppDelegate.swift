@@ -8,15 +8,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        unlMap.configMap(headers: ["x-unl-api-key": "TyWCPuvtqc4xAE8jGZX6IWKnPRpWKQWf",
-                                   "x-unl-vpm-id": "b96e28f6-a262-42e9-a337-a54ea90090f8"])
         
-        // Override point for customization after application launch.
-//        let sessionConfig = URLSessionConfiguration.default
-//        sessionConfig.httpAdditionalHeaders = ["x-unl-api-key": "TyWCPuvtqc4xAE8jGZX6IWKnPRpWKQWf",
-//                                               "x-unl-vpm-id": "b96e28f6-a262-42e9-a337-a54ea90090f8"
-//                                               ]
-//        MGLNetworkConfiguration.sharedManager.sessionConfiguration = sessionConfig
+        unlMap.configure(with: "TyWCPuvtqc4xAE8jGZX6IWKnPRpWKQWf", vpmKey: "b96e28f6-a262-42e9-a337-a54ea90090f8")
+
         return true
     }
 

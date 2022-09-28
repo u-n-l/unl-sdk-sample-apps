@@ -11,13 +11,11 @@ import CoreLocation
 
 class ViewController: UIViewController {
     
-    @IBOutlet var mapView: UNLMap!
+    @IBOutlet var mapView: UNLMapView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        mapView.loadMap(with: .base, centre: CLLocationCoordinate2D(latitude: 40.729437724412420, longitude: -74.00527954101562))
-
-        // Do any additional setup after loading the view.
+        mapView.loadMap(centre: CLLocationCoordinate2D(latitude: 40.729437724412420, longitude: -74.00527954101562))
     }
     
     @IBAction func actionMapStyles(_ sender: UISegmentedControl) {
@@ -34,5 +32,4 @@ class ViewController: UIViewController {
             mapView.changeTile(style: .base)
         }
     }
-    
 }
