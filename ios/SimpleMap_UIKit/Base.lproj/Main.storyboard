@@ -15,28 +15,8 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="UNLMapView" customModule="UNLMapSDK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Z1p-4C-1ze">
-                                <rect key="frame" x="2.5" y="44" width="409" height="32"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <segments>
-                                    <segment title="Base"/>
-                                    <segment title="Terrain"/>
-                                    <segment title="Traffic"/>
-                                    <segment title="Satellite"/>
-                                    <segment title="Vectorical"/>
-                                </segments>
-                                <connections>
-                                    <action selector="actionMapStyles:" destination="BYZ-38-t0r" eventType="valueChanged" id="gWQ-z9-CML"/>
-                                </connections>
-                            </segmentedControl>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="Z1p-4C-1ze" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="9MM-BI-Aey"/>
-                            <constraint firstItem="Z1p-4C-1ze" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="agH-Z3-6kp"/>
-                        </constraints>
                     </view>
                     <connections>
                         <outlet property="mapView" destination="8bC-Xf-vdC" id="xHA-o2-7JZ"/>
@@ -44,7 +24,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-197" y="70"/>
+            <point key="canvasLocation" x="-197.10144927536234" y="69.642857142857139"/>
         </scene>
     </scenes>
     <resources>

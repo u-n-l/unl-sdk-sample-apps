@@ -4,18 +4,15 @@ import UNLMapSDK
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     let unlMap = UNLMapSDK()
-    
-
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        unlMap.configure(with: "TyWCPuvtqc4xAE8jGZX6IWKnPRpWKQWf", vpmKey: "b96e28f6-a262-42e9-a337-a54ea90090f8")
+        unlMap.configure("TyWCPuvtqc4xAE8jGZX6IWKnPRpWKQWf", vpmKey: "b96e28f6-a262-42e9-a337-a54ea90090f8")
 
         return true
     }
 
     // MARK: UISceneSession Lifecycle
-
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
         // Called when a new scene session is being created.
         // Use this method to select a configuration to create the new scene with.
