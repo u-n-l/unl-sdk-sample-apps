@@ -2,6 +2,7 @@ package com.app.unl_project
 
 import android.graphics.Color
 import android.os.Bundle
+import android.view.Gravity
 import androidx.appcompat.app.AppCompatActivity
 import com.app.unl_map_sdk.UnlMap
 import com.app.unl_map_sdk.UnlMapView
@@ -16,6 +17,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         var unlMap=findViewById<UnlMapView>(R.id.mapView)
         unlMap.getMapAsync {
+            unlMap.enableTileSelector(true)
+            unlMap.setTileSelectorGravity(Gravity.BOTTOM)
             var poly = ArrayList<LatLng>()
             poly.add(LatLng(34.126256, 74.832149))
             poly.add(LatLng(34.126505, 74.835068))
