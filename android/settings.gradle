@@ -16,4 +16,4 @@ rootProject.name = "UNL_Project"
 include ':app'
 include ':UNL_Map_sdk'
 
-project(":UNL_Map_sdk").projectDir=new File("F:/Codebrew/UNL_Map_sdk")
+project(":UNL_Map_sdk").projectDir=new File("F:/Codebrew/unl-maps-sdk-android")
