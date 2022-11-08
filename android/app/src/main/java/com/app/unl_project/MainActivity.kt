@@ -4,7 +4,8 @@ import android.os.Bundle
 import android.view.Gravity
 import androidx.appcompat.app.AppCompatActivity
 import com.app.unl_map_sdk.UnlMap
-import com.app.unl_map_sdk.UnlMapView
+import com.app.unl_map_sdk.helpers.grid_controls.setGridControls
+import com.app.unl_map_sdk.views.UnlMapView
 import com.app.unl_map_sdk.helpers.tile_controls.enableTileSelector
 import com.app.unl_map_sdk.helpers.tile_controls.setTileSelectorGravity
 
@@ -16,7 +17,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         var unlMap=findViewById<UnlMapView>(R.id.mapView)
         unlMap.getMapAsync {
-            unlMap.enableTileSelector(true,this)
+            unlMap.fm=supportFragmentManager
+            unlMap.enableTileSelector(true)
+            unlMap.setGridControls(this,true)
             unlMap.setTileSelectorGravity(Gravity.RIGHT)
         }
     }
