@@ -10,10 +10,18 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven {
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/u-n-l/core-java")
+            credentials {
+                username = System.getenv("OSS_USERNAME")
+                password = System.getenv("OSS_PASSWORD")
+            }
+        }
     }
 }
 rootProject.name = "UNL_Project"
 include ':app'
 include ':UNL_Map_sdk'
 
-project(":UNL_Map_sdk").projectDir=new File("F:/Codebrew/unl-maps-sdk-android")
+project(":UNL_Map_sdk").projectDir=new File("C:/Users/Aamir Bashir/AndroidStudioProjects/unl-maps-sdk-android")
