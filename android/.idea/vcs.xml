@@ -2,7 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../testlib" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../../unl-maps-sdk-android" vcs="Git" />
-    <mapping directory="F:/Codebrew/unl-maps-sdk-android" vcs="Git" />
   </component>
 </project>
