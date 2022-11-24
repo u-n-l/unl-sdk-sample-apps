@@ -18,10 +18,17 @@ dependencyResolutionManagement {
                 password = System.getenv("OSS_PASSWORD")
             }
         }
+        maven {
+            url "https://jitpack.io"
+            credentials {
+                username = System.getenv("OSS_USERNAME")
+                password = System.getenv("OSS_PASSWORD")
+            }
+        }
     }
 }
 rootProject.name = "UNL_Project"
 include ':app'
-include ':UNL_Map_sdk'
+//include ':UNL_Map_sdk'
 
-project(":UNL_Map_sdk").projectDir=new File("C:/Users/Aamir Bashir/AndroidStudioProjects/unl-maps-sdk-android")
+//project(":UNL_Map_sdk").projectDir=new File("C:/Users/Aamir Bashir/AndroidStudioProjects/unl-maps-sdk-android")
