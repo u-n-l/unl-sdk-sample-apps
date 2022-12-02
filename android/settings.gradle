@@ -24,4 +24,4 @@ rootProject.name = "UNL_Project"
 include ':app'
 include ':UNL_Map_sdk'
 
-project(":UNL_Map_sdk").projectDir=new File("C:/Users/Aamir Bashir/AndroidStudioProjects/unl-maps-sdk-android")
+project(":UNL_Map_sdk").projectDir=new File("C:/Users/Aamir Bashir/AndroidStudioProjects/unl-maps-sdk-android/sdk")

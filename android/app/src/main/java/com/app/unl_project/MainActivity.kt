@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         var unlMap=findViewById<UnlMapView>(R.id.mapView)
         unlMap.getMapAsync {
             unlMap.fm=supportFragmentManager
+            unlMap.activity=this
             unlMap.enableTileSelector(true)
             unlMap.setGridControls(this,true)
             unlMap.setTileSelectorGravity(Gravity.RIGHT)
