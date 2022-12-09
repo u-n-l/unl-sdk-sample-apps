@@ -4,6 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Aamir Bashir/AndroidStudioProjects/UNL-GLOBAL/android/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Aamir Bashir/AndroidStudioProjects/unl-maps-sdk-android/sdk/src/main/res/layout/item_grid_selector.xml" value="0.1" />
+        <entry key="..\:/Users/Aamir Bashir/AndroidStudioProjects/unl-maps-sdk-android/sdk/src/main/res/layout/item_tile_selector.xml" value="0.1" />
+        <entry key="..\:/Users/Aamir Bashir/AndroidStudioProjects/unl-maps-sdk-android/sdk/src/main/res/layout/layout_tile_selector.xml" value="0.1" />
+        <entry key="..\:/Users/Aamir Bashir/AndroidStudioProjects/unl-maps-sdk-android/sdk/src/main/res/layout/precission_dialog.xml" value="0.1" />
         <entry key="..\:/Users/Aamir Bashir/AndroidStudioProjects/unl-maps-sdk-android/src/main/res/drawable/cancel_btn_bg.xml" value="0.151" />
         <entry key="..\:/Users/Aamir Bashir/AndroidStudioProjects/unl-maps-sdk-android/src/main/res/layout/precission_dialog.xml" value="0.22447916666666667" />
       </map>
