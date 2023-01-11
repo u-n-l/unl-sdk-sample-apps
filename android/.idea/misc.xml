@@ -4,6 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Aamir Bashir/AndroidStudioProjects/UNL-GLOBAL/android/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Aamir Bashir/AndroidStudioProjects/unl-maps-sdk-android/sdk/src/main/res/drawable/ic_baseline_grid_on_24.xml" value="0.1" />
+        <entry key="..\:/Users/Aamir Bashir/AndroidStudioProjects/unl-maps-sdk-android/sdk/src/main/res/drawable/selected_grid.xml" value="0.151" />
+        <entry key="..\:/Users/Aamir Bashir/AndroidStudioProjects/unl-maps-sdk-android/sdk/src/main/res/layout/item_cell_label.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/Aamir Bashir/AndroidStudioProjects/unl-maps-sdk-android/sdk/src/main/res/layout/item_grid_selector.xml" value="0.1" />
         <entry key="..\:/Users/Aamir Bashir/AndroidStudioProjects/unl-maps-sdk-android/sdk/src/main/res/layout/item_tile_selector.xml" value="0.1" />
         <entry key="..\:/Users/Aamir Bashir/AndroidStudioProjects/unl-maps-sdk-android/sdk/src/main/res/layout/layout_tile_selector.xml" value="0.1" />

@@ -15,13 +15,17 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         UnlMap(applicationContext,getString(R.string.api_key),getString(R.string.vpm_id))
         setContentView(R.layout.activity_main)
-        var unlMap=findViewById<UnlMapView>(R.id.mapView)
+        val unlMap=findViewById<UnlMapView>(R.id.mapView)
         unlMap.getMapAsync {
             unlMap.fm=supportFragmentManager
+
             unlMap.activity=this
+
             unlMap.enableTileSelector(true)
+
             unlMap.setGridControls(this,true)
-            unlMap.setTileSelectorGravity(Gravity.RIGHT)
+
+            unlMap.setTileSelectorGravity(Gravity.END)
         }
     }
 }

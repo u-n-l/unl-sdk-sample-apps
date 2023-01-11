@@ -12,7 +12,6 @@ android {
         targetSdk 32
         versionCode 1
         versionName "1.0"
-
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -42,5 +41,4 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.4'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
     androidTestImplementation 'androidx.test.espresso:espresso-contrib:3.5.0'
-
 }
