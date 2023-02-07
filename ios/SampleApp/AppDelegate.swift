@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         /// apiKey: and vpmId is mandatory to configure the sdk
         /// Set gridControl: flag true to display control, By defaults its false
         /// Set tilesSelectorControl: flag true to display inbuilt control, By defaults its false 
-        unlSDK.configure(apiKey: "TyWCPuvtqc4xAE8jGZX6IWKnPRpWKQWf", vpmId: "b96e28f6-a262-42e9-a337-a54ea90090f8", gridControl: true, tilesSelectorControl: true)
+        unlSDK.configure(apiKey: KEY_API, vpmId: ID_VPM, gridControl: true, tilesSelectorControl: true, indoorControl: true)
         
         return true
     }
