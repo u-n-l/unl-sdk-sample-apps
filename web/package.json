@@ -8,7 +8,7 @@
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "npm i && npm run build",
-    "deploy": "gh-pages -d _site"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "unl-map-js": "0.0.3",
