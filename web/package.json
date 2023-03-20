@@ -6,7 +6,9 @@
   "source": "src/index.html",
   "scripts": {
     "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm i && npm run build",
+    "deploy": "gh-pages -d _site"
   },
   "dependencies": {
     "unl-map-js": "0.0.3"
