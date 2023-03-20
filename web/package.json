@@ -11,7 +11,8 @@
     "deploy": "gh-pages -d _site"
   },
   "dependencies": {
-    "unl-map-js": "0.0.3"
+    "unl-map-js": "0.0.3",
+    "gh-pages": "^4.0.0"
   },
   "keywords": [],
   "author": "",
