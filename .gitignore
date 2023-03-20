@@ -16,4 +16,3 @@ DerivedData
 *.ipa
 *.xcuserstate
 **/node_modules
-**/dist
