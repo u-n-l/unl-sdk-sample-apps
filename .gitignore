@@ -15,3 +15,5 @@ DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
+**/node_modules
+**/dist
