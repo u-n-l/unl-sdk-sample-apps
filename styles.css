@@ -167,6 +167,11 @@ body {
   margin: 0px;
 }
 
+.mapboxgl-ctrl.mapboxgl-ctrl-attrib,
+.maplibregl-ctrl.maplibregl-ctrl-attrib {
+  display: none;
+}
+
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }

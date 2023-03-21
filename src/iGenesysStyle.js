@@ -10,7 +10,7 @@ export default {
   sources: {
     igensys: {
       type: "vector",
-      tiles: ["https://tiles.unl.global/v2alpha/vector/767/{z}/{x}/{y}"],
+      tiles: ["https://alpha.tiles.unl.global/v2alpha/vector/767/{z}/{x}/{y}"],
     },
   },
   sprite: "https://maputnik.github.io/osm-liberty/sprites/osm-liberty",
