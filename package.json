@@ -9,12 +9,19 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@watergis/mapbox-gl-pitch-toggle-control": "1.0.3",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-preset-env": "1.5.2",
     "unl-map-js": "0.0.3"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^6.7.3",
     "webpack": "^5.72.0",
     "webpack-cli": "^4.9.2"
   }

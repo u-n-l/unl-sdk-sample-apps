@@ -10,6 +10,19 @@ module.exports = {
       buffer: require.resolve("buffer"),
     },
   },
+  module: {
+    rules: [
+      {
+        loader: "babel-loader",
+        test: /\.js$|jsx/,
+        exclude: /node_modules/,
+      },
+      {
+        test: /\.css$/i,
+        use: ["css-loader"],
+      },
+    ],
+  },
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "index.js",
