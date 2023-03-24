@@ -10,7 +10,9 @@
   "sources": {
     "igensys": {
       "type": "vector",
-      "tiles": ["http://34.90.110.225:8080/maps/igensys/{z}/{x}/{y}.pbf"],
+      "tiles": [
+        "https://alpha.tiles.unl.global/v2alpha/vector/767/{z}/{x}/{y}"
+      ],
       "minzoom": 3,
       "maxzoom": 18
     }
