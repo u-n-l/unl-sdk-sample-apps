@@ -4,8 +4,8 @@ import MapboxPitchToggleControl from "@watergis/mapbox-gl-pitch-toggle-control";
 import "@watergis/mapbox-gl-pitch-toggle-control/css/styles.css";
 
 const map = new UnlSdk.Map({
-  vpmId: "2df374db-1d66-4c08-9fbc-90185e0b9856",
-  apiKey: "RnjiJC0e4ANXS8gqrWqDnuV8yvb4SSRq",
+  vpmId: "f90a2a92-26e7-41f6-86cf-e2a525c60870",
+  apiKey: "X0ydIq4zEMkZRMX5aJljfphBhpbQr9VL",
   style: iGenesysStyle,
   container: "map",
   maxBounds: [
