@@ -68,8 +68,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/u-n-l/unl-maps-sdk-ios.git",
       "state" : {
-        "branch" : "UNL-4025-Footprint-with-Test-Cases",
-        "revision" : "6e7d3bc58a347817f4bb9ed04910675bc7169ced"
+        "branch" : "UNL-4064-IMDF",
+        "revision" : "3de7cef23c1b5fc34ef15ad7ce91b3deee1cb9af"
       }
     }
   ],
