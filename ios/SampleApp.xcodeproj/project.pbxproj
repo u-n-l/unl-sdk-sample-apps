@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A6DC169293A115F006A257E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6DC168293A115E006A257E /* Constants.swift */; };
+		2AB674B0298BBC480061A660 /* UNLMapSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 2AB674AF298BBC480061A660 /* UNLMapSDK */; };
 		2AE7460D2912468B0001728C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7460C2912468B0001728C /* AppDelegate.swift */; };
 		2AE7460F2912468B0001728C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7460E2912468B0001728C /* SceneDelegate.swift */; };
 		2AE746112912468B0001728C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE746102912468B0001728C /* ViewController.swift */; };
 		2AE746142912468B0001728C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE746122912468B0001728C /* Main.storyboard */; };
 		2AE74616291246940001728C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE74615291246940001728C /* Assets.xcassets */; };
 		2AE74619291246940001728C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE74617291246940001728C /* LaunchScreen.storyboard */; };
-		2AE74622291248AE0001728C /* UNLMapSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 2AE74621291248AE0001728C /* UNLMapSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A6DC168293A115E006A257E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2AE746092912468B0001728C /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE7460C2912468B0001728C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AE7460E2912468B0001728C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,18 +34,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AE74622291248AE0001728C /* UNLMapSDK in Frameworks */,
+				2AB674B0298BBC480061A660 /* UNLMapSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2AB674AE298BBC480061A660 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2AE746002912468B0001728C = {
 			isa = PBXGroup;
 			children = (
 				2AE7460B2912468B0001728C /* SampleApp */,
 				2AE7460A2912468B0001728C /* Products */,
+				2AB674AE298BBC480061A660 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +68,7 @@
 		2AE7460B2912468B0001728C /* SampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				2A6DC168293A115E006A257E /* Constants.swift */,
 				2AE7460C2912468B0001728C /* AppDelegate.swift */,
 				2AE7460E2912468B0001728C /* SceneDelegate.swift */,
 				2AE746102912468B0001728C /* ViewController.swift */,
@@ -86,7 +97,7 @@
 			);
 			name = SampleApp;
 			packageProductDependencies = (
-				2AE74621291248AE0001728C /* UNLMapSDK */,
+				2AB674AF298BBC480061A660 /* UNLMapSDK */,
 			);
 			productName = SampleApp;
 			productReference = 2AE746092912468B0001728C /* SampleApp.app */;
@@ -117,7 +128,7 @@
 			);
 			mainGroup = 2AE746002912468B0001728C;
 			packageReferences = (
-				2AE74620291248AE0001728C /* XCRemoteSwiftPackageReference "unl-maps-sdk-ios" */,
+				2AB674AD298BBA170061A660 /* XCRemoteSwiftPackageReference "unl-maps-sdk-ios" */,
 			);
 			productRefGroup = 2AE7460A2912468B0001728C /* Products */;
 			projectDirPath = "";
@@ -149,6 +160,7 @@
 				2AE746112912468B0001728C /* ViewController.swift in Sources */,
 				2AE7460D2912468B0001728C /* AppDelegate.swift in Sources */,
 				2AE7460F2912468B0001728C /* SceneDelegate.swift in Sources */,
+				2A6DC169293A115F006A257E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +307,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6FXUMT5X23;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SampleApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -303,12 +317,13 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = UNL.SampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -324,6 +339,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6FXUMT5X23;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SampleApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -332,7 +349,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -370,20 +387,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		2AE74620291248AE0001728C /* XCRemoteSwiftPackageReference "unl-maps-sdk-ios" */ = {
+		2AB674AD298BBA170061A660 /* XCRemoteSwiftPackageReference "unl-maps-sdk-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/u-n-l/unl-maps-sdk-ios.git";
 			requirement = {
-				branch = "UNL-3137-Precision-And-Flags";
+				branch = "UNL-4064-IMDF";
 				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		2AE74621291248AE0001728C /* UNLMapSDK */ = {
+		2AB674AF298BBC480061A660 /* UNLMapSDK */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 2AE74620291248AE0001728C /* XCRemoteSwiftPackageReference "unl-maps-sdk-ios" */;
+			package = 2AB674AD298BBA170061A660 /* XCRemoteSwiftPackageReference "unl-maps-sdk-ios" */;
 			productName = UNLMapSDK;
 		};
 /* End XCSwiftPackageProductDependency section */

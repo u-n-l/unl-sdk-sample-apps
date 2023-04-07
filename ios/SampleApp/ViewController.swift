@@ -24,11 +24,13 @@ class ViewController: UIViewController {
         /// By default it use GEOHASH_LENGTH_9
         /// By default grid line color is lightGray
         /// By default grid line width is 0.5
-        self.mapView.gridOptions = GridControlOptions(.GEOHASH_LENGTH_9, .red, 0.5)
+        /// By default cell fill color is .systemYellow
+        /// By default cell border color is .systemYellow
+        self.mapView.gridOptions = GridControlOptions(.GEOHASH_LENGTH_9, .red, 0.5, .systemYellow, .systemYellow)
         
         /// arrayTiles is optional in case using inbuild tile selector
         /// By default it will show all available tiles
-        self.mapView.arrayTiles = [.base, .satellite, .terrain, .traffic]
+        self.mapView.arrayTiles = [.base, .satellite, .terrain, .traffic, .vectorial]
         
         /// Load map after setting properties
         mapView.loadMap()

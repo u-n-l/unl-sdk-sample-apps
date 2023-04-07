@@ -1,12 +1,66 @@
 {
   "pins" : [
     {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "78424be314842833c04bc3bef5b72e85fff99204",
+        "version" : "5.6.4"
+      }
+    },
+    {
       "identity" : "core-swift-package",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/u-n-l/core-swift-package.git",
+      "location" : "https://git@github.com/u-n-l/core-swift-package.git",
       "state" : {
         "branch" : "main",
         "revision" : "9219e59273e346e7e63dba168f839d1f893d5857"
+      }
+    },
+    {
+      "identity" : "iosdropdown",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jriosdev/iOSDropDown.git",
+      "state" : {
+        "revision" : "945c4f1945ed37a31055e812a5ee11a3d06e88ab",
+        "version" : "0.4.0"
+      }
+    },
+    {
+      "identity" : "moya",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Moya/Moya.git",
+      "state" : {
+        "revision" : "c263811c1f3dbf002be9bd83107f7cdc38992b26",
+        "version" : "15.0.3"
+      }
+    },
+    {
+      "identity" : "reactiveswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ReactiveCocoa/ReactiveSwift.git",
+      "state" : {
+        "revision" : "c43bae3dac73fdd3cb906bd5a1914686ca71ed3c",
+        "version" : "6.7.0"
+      }
+    },
+    {
+      "identity" : "rxswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ReactiveX/RxSwift.git",
+      "state" : {
+        "revision" : "b4307ba0b6425c0ba4178e138799946c3da594f8",
+        "version" : "6.5.0"
+      }
+    },
+    {
+      "identity" : "turf-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mapbox/turf-swift.git",
+      "state" : {
+        "revision" : "87b5b37108ba9f37f0885b586d8f6355d8240dd8",
+        "version" : "2.6.1"
       }
     },
     {
@@ -14,8 +68,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/u-n-l/unl-maps-sdk-ios.git",
       "state" : {
-        "branch" : "UNL-3137-Precision-And-Flags",
-        "revision" : "8604b12dc296685dc0a9c213d392866599a66701"
+        "branch" : "UNL-4064-IMDF",
+        "revision" : "3de7cef23c1b5fc34ef15ad7ce91b3deee1cb9af"
       }
     }
   ],
