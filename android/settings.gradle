@@ -14,8 +14,8 @@ dependencyResolutionManagement {
             name = "GitHubPackages"
             url = uri("https://maven.pkg.github.com/u-n-l/core-java")
             credentials {
-                username = "lokeshpunl"
-                password = "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"
+                username = "git username"
+                password = "git password"
             }
 
            /* username = System.getenv("OSS_USERNAME")

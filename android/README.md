@@ -7,3 +7,10 @@ UnlMap(applicationContext,getString(R.string.api_key),getString(R.string.vpm_id)
 
  <string name="api_key">UNL_API_KEY</string>
  <string name="vpm_id">UNL_VPM_ID</string>
+ 
+and in Setting Gradle the Git username and password will be required, so enter your git account details there
+
+credentials {
+username = "git username"
+password = "git password"
+}
