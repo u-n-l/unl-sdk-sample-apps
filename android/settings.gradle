@@ -14,16 +14,19 @@ dependencyResolutionManagement {
             name = "GitHubPackages"
             url = uri("https://maven.pkg.github.com/u-n-l/core-java")
             credentials {
-                username = System.getenv("OSS_USERNAME")
-                password = System.getenv("OSS_PASSWORD")
+                username = "lokeshpunl"
+                password = "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"
             }
+
+           /* username = System.getenv("OSS_USERNAME")
+            password = System.getenv("OSS_PASSWORD")*/
         }
         maven {
             url "https://jitpack.io"
-            credentials {
-                username = System.getenv("OSS_USERNAME")
-                password = System.getenv("OSS_PASSWORD")
-            }
+           /* credentials {
+                username = "lokeshpunl"
+                password = "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"
+            }*/
         }
     }
 }
@@ -31,4 +34,6 @@ rootProject.name = "UNL_Project"
 include ':app'
 //include ':UNL_Map_sdk'
 
-//project(":UNL_Map_sdk").projectDir=new File("C:/Users/Aamir Bashir/AndroidStudioProjects/unl-maps-sdk-android")
+//project(":UNL_Map_sdk").projectDir=new File("/Users/lokeshpanchal/Documents/F/UNL_GLOBAL/UNL-SDK/unl-maps-sdk-android/sdk")
+//project(":UNL_Map_sdk").projectDir=new File("/Users/lokeshpanchal/Documents/F/UNL_GLOBAL/givenbyAamir/unl-maps-sdk-android/sdk")
+//project(":UNL_Map_sdk").projectDir=new File("/Users/lokeshpanchal/Documents/F/UNL_GLOBAL/lokesh-map-sdk/unl-maps-sdk-android/sdk")
