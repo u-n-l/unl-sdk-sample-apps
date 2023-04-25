@@ -37,7 +37,6 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.5.1'
     implementation 'com.google.android.material:material:1.6.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-   // implementation project(path: ':UNL_Map_sdk')
     implementation 'com.android.support:multidex:1.0.3'
     implementation 'com.github.u-n-l:unl-maps-sdk-android:1.1.4'
     testImplementation 'junit:junit:4.13.2'
